@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dynox Tech Computers — your digital solution partner. Online government, business, education, creative and IT support services in Kenya.">
+  <title>Dynox Tech Computers | Your Digital Solution Partner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><span>💻 Digital support, made simple.</span><a href="mailto:dinoxtechcomputers@gmail.com">dinoxtechcomputers@gmail.com</a></div></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Dynox Tech Computers home">
+        <span class="brand-mark">D<span>✦</span></span>
+        <span class="brand-copy"><strong>DYNOX TECH</strong><small>COMPUTERS</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav id="mainNav">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#how">How it works</a><a href="#about">About</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#services">Explore services <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR DIGITAL SOLUTION PARTNER</div>
+          <h1>Make digital tasks<br><em>easier.</em> Make progress<br>with confidence.</h1>
+          <p class="hero-lead">From online applications and business documents to creative design and computer support, Dynox Tech Computers helps you get things done — wherever you are.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#services">Explore our services <span>→</span></a><a class="btn btn-light" href="#how">How it works</a></div>
+          <div class="hero-note"><span class="note-icon">✓</span> Online-first support across Kenya <span class="note-divider">·</span> Clear service fees</div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-card main-card">
+            <div class="visual-card-top"><div class="mini-logo">D✦</div><span class="live-pill"><i></i> DIGITAL SUPPORT</span></div>
+            <div class="screen-heading">What can we help<br>you do today?</div>
+            <div class="service-preview"><span class="preview-icon blue">▤</span><div><b>Documents & CVs</b><small>Professional, polished and ready</small></div><span class="preview-arrow">↗</span></div>
+            <div class="service-preview"><span class="preview-icon peach">◎</span><div><b>Online applications</b><small>Guidance from start to finish</small></div><span class="preview-arrow">↗</span></div>
+            <div class="service-preview"><span class="preview-icon mint">✳</span><div><b>Design & technology</b><small>Ideas brought to life</small></div><span class="preview-arrow">↗</span></div>
+            <div class="screen-footer"><span>Simple process. Helpful people.</span><span>DYNOX TECH</span></div>
+          </div>
+          <div class="floating-tag tag-top"><span>✦</span> Your ideas, our digital skills</div>
+          <div class="floating-tag tag-bottom"><span class="tag-check">✓</span><div><b>Book with ease</b><small>Chat with us on WhatsApp</small></div></div>
+          <div class="hero-sparkle">✳</div>
+        </div>
+      </div>
+      <div class="container trust-strip"><div><b>20+</b><span>Service categories</span></div><div><b>Clear</b><span>Upfront service fees</span></div><div><b>Online</b><span>Convenient support</span></div><div><b>Human</b><span>Friendly assistance</span></div></div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow">OUR SERVICES</div><h2>What do you need<br><em>help with?</em></h2></div>
+          <p>Explore our services, check the assistance fee and book directly. Official government or third-party charges, where applicable, are separate.</p>
+        </div>
+        <div class="service-tools">
+          <label class="search-box"><span>⌕</span><input id="serviceSearch" type="search" placeholder="Search a service (e.g. KRA, CV, website)…" aria-label="Search services"><kbd>⌘ K</kbd></label>
+          <div class="filter-wrap" id="categoryFilters">
+            <button class="filter-chip active" data-filter="all">All services</button>
+            <button class="filter-chip" data-filter="government">Government</button>
+            <button class="filter-chip" data-filter="business">Business</button>
+            <button class="filter-chip" data-filter="education">Education</button>
+            <button class="filter-chip" data-filter="careers">CV & careers</button>
+            <button class="filter-chip" data-filter="creative">Creative</button>
+            <button class="filter-chip" data-filter="technology">Technology</button>
+          </div>
+        </div>
+        <div class="service-grid" id="serviceGrid"></div>
+        <div class="no-results" id="noResults" hidden>No matching services found. Try another search term.</div>
+        <div class="pricing-note"><span>ⓘ</span><p><b>A note about pricing:</b> Prices shown are Dynox Tech Computers’ service/assistance fees in Kenya shillings (KES). Government fees, statutory charges, portal charges and other third-party costs are not included unless stated. We confirm the exact scope and total before work begins.</p></div>
+      </div>
+    </section>
+
+    <section class="how-section section" id="how">
+      <div class="container">
+        <div class="section-heading centered"><div class="eyebrow">A SIMPLE PROCESS</div><h2>Getting help is <em>easy.</em></h2><p>Clear steps, friendly communication and no guesswork.</p></div>
+        <div class="steps-grid">
+          <article class="step"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Find your service</h3><p>Search the catalogue and read what is included and the listed assistance fee.</p></article>
+          <article class="step"><span class="step-number">02</span><div class="step-icon">☏</div><h3>Talk to our team</h3><p>Tap Book on WhatsApp. Tell us what you need and share only the details required.</p></article>
+          <article class="step"><span class="step-number">03</span><div class="step-icon">✦</div><h3>We get it done</h3><p>We agree on the scope, timeline and any official charges before starting your request.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-grid">
+        <div class="about-art"><div class="about-circle"><span> D✦ </span></div><div class="about-sticker">TECH THAT<br><b>WORKS FOR YOU.</b></div><div class="about-dots"></div></div>
+        <div class="about-copy"><div class="eyebrow">ABOUT DYNOX TECH</div><h2>Digital solutions<br>with a <em>human touch.</em></h2><p>Dynox Tech Computers is an online-first digital services business built to make everyday digital tasks simpler for individuals, students and businesses in Kenya.</p><p>Whether you need help with an online application, a professional CV, business documents, creative work or computer support, we aim to make the process clear, convenient and dependable.</p><div class="value-list"><span>✓ Friendly, clear communication</span><span>✓ Transparent assistance fees</span><span>✓ Remote support and virtual training</span></div></div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact"><div class="container cta-inner"><div><div class="eyebrow light-eyebrow">LET'S GET STARTED</div><h2>Have a task in mind?<br><em>Let's make it happen.</em></h2><p>Tell us what you need. Our team will guide you on the next step.</p></div><div class="cta-actions"><a class="btn btn-white" id="mainWhatsApp" href="#" target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a><a class="email-link" href="mailto:dinoxtechcomputers@gmail.com">dinoxtechcomputers@gmail.com</a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">D<span>✦</span></span><span class="brand-copy"><strong>DYNOX TECH</strong><small>COMPUTERS</small></span></a><p>Your Digital Solution Partner.<br>Making digital tasks easier, one request at a time.</p><div class="footer-links"><a href="#services">Services</a><a href="#how">How it works</a><a href="#about">About</a><a href="mailto:dinoxtechcomputers@gmail.com">Email us</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Dynox Tech Computers. All rights reserved.</span><span>Designed for people. Powered by technology.</span></div></footer>
+  <a class="floating-whatsapp" id="floatingWhatsApp" href="#" target="_blank" rel="noopener" aria-label="Chat with Dynox Tech on WhatsApp">☏</a>
+  <script src="js/config.js"></script><script src="js/services.js"></script><script src="js/main.js"></script>
+</body>
+</html>
